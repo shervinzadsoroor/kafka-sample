@@ -1,0 +1,5 @@
+[DEBUG] 2020-02-11 12:39:45.127 [main] Log4j2 - Debug Message Logged !!!
+[INFO ] 2020-02-11 12:39:45.130 [main] Log4j2 - Info Message Logged !!!
+[ERROR] 2020-02-11 12:39:45.131 [main] Log4j2 - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at org.example.Log4j2.main(Log4j2.java:13) [classes/:?]
