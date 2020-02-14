@@ -57,6 +57,10 @@ public class SimpleProducer {
         while (true) {
             System.out.println("type:");
             String message = scanner.nextLine();
+            if (message.equals("end")){
+                producer.close();
+                break;
+            }
             producer.send(new ProducerRecord<>(topicName,message));
         }
       //  System.out.println("Message sent successfully");
